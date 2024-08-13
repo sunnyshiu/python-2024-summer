@@ -1,0 +1,25 @@
+x=50
+y=53
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x% 50)
+x+=3
+print(x)
+print(x>y)
+print(x==y)
+print(x<y)
+print(x<y or x >10)
+print(x<y and x >10)
+print(not(x<y or x >10))
+if x >y:
+    print("x")
+elif x == y:
+    print("equal")
+else:
+    print("y")
+i = 1
+while (i < 21):
+  print(i)
+  i += 1
